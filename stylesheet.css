@@ -1,0 +1,124 @@
+body{
+    background-color: white;
+    font-family: Calibri;
+}
+
+main{
+    align-items: center;
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+  
+li {
+    display: inline;
+    color: black;
+}
+
+li > a{
+    text-decoration: none;
+    color: black;
+}
+
+li > a:hover{
+    text-decoration: underline;
+    color: black;
+}
+ 
+#chi-siamo{
+    margin-right: 0.5%;
+}
+
+#google-store{
+    margin-right: 68%;
+}
+
+#gmail{
+    margin-right: 0.5%;
+}
+
+#immagini{
+    margin-right: 0.5%;
+}
+
+#menu-image{
+    width: 2%;
+    height: auto;
+    margin-bottom: -0.5%;
+    margin-right: 0.5%;
+}
+
+#account-image{
+    width: 2.5%;
+    height: auto;
+    margin-bottom: -0.7%;
+    border-radius: 50%;
+}
+
+#nav-bar{
+    margin-bottom: 7.5%;
+}
+
+#search-bar{
+    width: 50%;
+    height: 30px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    font-size: 18px;
+    margin-bottom: 1%;
+}
+
+button{
+    background-color: #f5f5f5;
+    border:none;
+    color:black;
+    font-size:15px;
+    padding: 10px 20px;
+    margin:5px;
+    border-radius:4px;
+    outline:none;
+}
+
+button:hover{
+    box-shadow: 0px 1px 1px black;
+}
+
+form{
+    text-align: center;
+}
+
+#linguaggio{
+    color: blue;
+    text-decoration: none;
+}
+
+#linguaggio:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: rgb(199, 197, 197);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 1%;
+}
+
+#footer > a{
+    color: black;
+    text-decoration: none;
+}
+
+#footer > a:hover{
+    text-decoration: underline;
+}
